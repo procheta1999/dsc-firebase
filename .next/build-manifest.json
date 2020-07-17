@@ -1,0 +1,15 @@
+{
+  "devFiles": [
+    "static/development/dll/dll_d65ae17c3b7e9599e5ac.js"
+  ],
+  "pages": {
+    "/_app": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ]
+  }
+}
