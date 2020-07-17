@@ -9,7 +9,7 @@ const fromObjectToList = object =>
     ? Object.keys(object).map(key => ({ ...object[key], index: key }))
     : [];
 
-export default class HomePage extends Component {
+class HomePage extends Component {
   componentDidMount() {
     const { onSetUsers } = this.props;
 
