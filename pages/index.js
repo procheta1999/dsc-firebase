@@ -4,7 +4,8 @@ import Link from 'next/link'
 
 import * as routes from "../src/constants/routes"
 import { AppWithAuthentication } from "../src/components/App";
-
+import Icon from '@material-ui/core/Icon';
+import Typography from '@material-ui/core/Typography';
 export default function LandingPage(){
   return (
   <AppWithAuthentication>
@@ -13,7 +14,7 @@ export default function LandingPage(){
       <meta charset="UTF-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>DSC NSEC blogs!</title>
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" href="https://raw.githubusercontent.com/procheta1999/DSC-NSEC-Blogs/master/public/favicon.ico" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -23,13 +24,14 @@ export default function LandingPage(){
       <main>
         
       <h1 className="title">
-        <img src="../src/components/app/public/dsc.png" alt="dsc Logo" className="logo"/>
+        <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/dsc.png?raw=true" alt="dsc Logo" className="logo"/>
           <b>DSC NSEC BLOGS-<i id="s">Write Your Own Story!</i></b>
         </h1>
         <br></br>
+        <img src="https://media.giphy.com/media/pOZhmE42D1WrCWATLK/giphy.gif"></img>
         <br></br>
         <p className="description">
-          We, at DSC NSEC, believe that everyone has a unique story to tell to the world- a story about them,how they reached success, how they never gave up, what challenges did they face, what was the final outcome. So we can came up with our blog platform <i id="pro">DSC NSEC blogs!</i> to help reach your stories to the world, to encourage more people in their journey. So, let's start writing !
+          We, at DSC NSEC, believe that everyone has a unique story to tell to the world- a story about them,how they reached success, how they never gave up, what challenges did they face, what was the final outcome. So we came up with our blog platform <i id="pro">DSC NSEC blogs!</i> to help reach your stories to the world, to encourage more people in their journey. So, let's start writing !
         </p>
         
         
@@ -76,7 +78,7 @@ export default function LandingPage(){
   </div>
         <br></br>
         <div className="grid">
-        <img src="/dsc.png" alt="blog" id="book1" />
+        <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/dsc.png?raw=true" alt="blog" id="book1" />
           <a href="https://dscnsec.com/" className="card">
             <h3>About us &rarr;</h3>
             <p>We are Developer Student Club of Netaji Subhash Engineering College, New Garia, Kolkata.</p>
@@ -86,15 +88,24 @@ export default function LandingPage(){
             <h3>Log In &rarr;</h3>
             <p>Start your Blog Journey today!</p>
           </a></Link>
-          <img src="/book.jpg" alt="blog" id="book" />
+          <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/book.jpg?raw=true" alt="blog" id="book" />
           <br></br>
-          <img src="/create.jpg" alt="blog" id="book" />
+          <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/create.jpg?raw=true" alt="blog" id="book" />
           <a href="/four-post" className="card">
             <h3>Contributors' Section &rarr;</h3>
             <p>The people without whom this page would have been impossible</p>
           </a>
           </div>
           <br></br>
+          <div id="pr">
+        <Typography variant="h3" gutterBottom style={{ textAlign: "center" }}>
+        Follow us:
+        </Typography>
+        <a href="https://www.facebook.com/dscnsec" target="_blank"><Icon className="fa fa-facebook-f" /></a>
+        <a href="https://twitter.com/dscnsec" target="_blank"><Icon className="fa fa-twitter" /></a>
+        <a href="https://ig.me/dscnsec" target="_blank"><Icon className="fa fa-instagram" /></a>
+        <a  href="https://github.com/dscnsec"target="_blank"><Icon className="fa fa-github" /></a>
+        </div>
         <br></br>
         <br></br>
       </main>
@@ -106,7 +117,7 @@ export default function LandingPage(){
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/dsc.png" alt="dsc Logo" className="logo"  height="300px" width="100px"/>
+          <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/dsc.png?raw=true" alt="dsc Logo" className="logo"  height="300px" width="100px"/>
         </a>
       </footer>
 
@@ -120,7 +131,7 @@ export default function LandingPage(){
         padding:2em 2em 2em 2em;
         font-size:20px;
         font-family: Optimus Princeps;
-        background-image:url("/light.jpg");
+        background-image:url("https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/light.jpg?raw=true");
         background-width:25%;
         background-height:25%;
         color:white;
@@ -129,7 +140,7 @@ export default function LandingPage(){
         padding:2em 2em 2em 2em;
         font-size:20px;
         font-family: Optimus Princeps;
-        background-image:url("/bulb.jpg");
+        background-image:url("https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/bulb.jpg?raw=true");
         background-width:25%;
         background-height:25%;
         color:black;
@@ -143,7 +154,7 @@ export default function LandingPage(){
         padding:2em 2em 2em 2em;
         font-size:20px;
         font-family: Optimus Princeps;
-        background-image:url("/books.jpg");
+        background-image:url("https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/book.jpg?raw=true");
         background-width:50%;
         background-height:50%;
         color:white;
@@ -315,8 +326,6 @@ export default function LandingPage(){
         #pro{
           color:blue;
         }
-      `}</style>
-      <style jsx global>{`
         html,
         body {
           padding: 0;

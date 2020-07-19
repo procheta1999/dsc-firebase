@@ -60,16 +60,19 @@ class SignInForm extends Component {
       <meta charset="UTF-8"></meta>
    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
        <title>Log In</title>
-       <link rel="icon" href="favicon.ico" ></link>
+       <link rel="icon" href="https://raw.githubusercontent.com/procheta1999/DSC-NSEC-Blogs/master/public/favicon.ico" ></link>
      </Head>
      <main>
      <h1 className="title">
-        <img src="dsc.png" alt="dsc Logo" className="logo"></img>
+        <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/dsc.png?raw=true" alt="dsc Logo" className="logo"></img>
           <b>DSC NSEC BLOGS-<i id="s">Write Your Own Story!</i></b>
         </h1>
+        <br></br>
         <center><h1>
         Log In To Start Your Journey Today!
         </h1></center>
+        <center>
+        <img src="https://media.giphy.com/media/1O2BRZcDgIfDsKMTbG/giphy.gif"></img></center>
         <center>
       <form onSubmit={this.onSubmit}>
       <div className="grid">
@@ -124,7 +127,7 @@ class SignInForm extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/dsc.png" alt="DSC Logo" className="logo" />
+          <img src="https://github.com/procheta1999/DSC-NSEC-Blogs/blob/master/public/dsc.png?raw=true" alt="DSC Logo" className="logo" />
         </a>
       </footer>
       <style jsx>{`
@@ -251,7 +254,6 @@ class SignInForm extends Component {
     );
   }
 }
-
 export default SignInPage;
 
 export { SignInForm };
