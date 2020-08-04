@@ -16,8 +16,7 @@ export default function LandingPage(){
         <title>DSC NSEC blogs!</title>
         <link rel="icon" href="https://raw.githubusercontent.com/procheta1999/DSC-NSEC-Blogs/master/public/favicon.ico" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       </Head>
 
@@ -36,29 +35,29 @@ export default function LandingPage(){
         
         
         <br></br>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  <div id="myCarousel" className="carousel slide" data-ride="carousel">
+    <ol className="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div className="carousel-inner">
 
-      <div class="item active">
+      <div className="item active">
       <div id="pr24">
        <div id="pr2"> <i>Start writing, no matter what. The water does not flow until the faucet is turned on.</i></div>
         -Louis L’Amour
         </div>
       </div>
 
-      <div class="item">
+      <div className="item">
       <div id="pr1">
        <div id="pr2"> <i>Write what should not be forgotten</i></div>
         -Isabel Allende
         </div>
       </div>
     
-      <div class="item">
+      <div className="item">
       <div id="pr34">
        <div id="pr2"> <i>The first draft is just you telling yourself the story.</i></div>
         -Terry Pratchett
@@ -67,13 +66,13 @@ export default function LandingPage(){
   
     </div>
 
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
+    <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span className="glyphicon glyphicon-chevron-left"></span>
+      <span className="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
+    <a className="right carousel-control" href="#myCarousel" data-slide="next">
+      <span className="glyphicon glyphicon-chevron-right"></span>
+      <span className="sr-only">Next</span>
     </a>
   </div>
         <br></br>
@@ -108,6 +107,8 @@ export default function LandingPage(){
         </div>
         <br></br>
         <br></br>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       </main>
 
       <footer>
